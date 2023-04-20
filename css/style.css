@@ -50,3 +50,8 @@ img{
     clear: both;
     display: table;
 }
+
+h2,span,a{
+    padding-top: 10px;
+    vertical-align: middle;
+}
