@@ -38,7 +38,7 @@ img{
 
 .column-left{
     float: left;
-    width: calc(90% / 3);
+    width: calc(100%/3 - 20px);
     background-color: black;
     color: white;
     margin-right: 20px;
