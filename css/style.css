@@ -1,0 +1,52 @@
+/* Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generics*/
+body{
+     font-family: 'fredoka';
+}
+
+h1{
+    color: #e53170;
+    padding: 32px 0;
+    font-weight: 900;
+    
+}
+
+header{
+    text-align: center;
+    padding: 32px 0;
+}
+
+img{
+    height: 100px;
+    float: left;
+}
+
+/*Utilities*/
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* Columns*/
+
+.column-left{
+    float: left;
+    width: calc(90% / 3);
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.clearfix::after{
+    content:'';
+    clear: both;
+    display: table;
+}
